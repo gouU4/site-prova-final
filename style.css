@@ -180,3 +180,57 @@ ul {
     font-weight: 400;
     color: #E0E0E0;
 }
+
+/* responsividade */
+
+
+@media (max-width: 1023px) {
+
+    .header__logo,
+    .header__nav,
+    .header__carrinho,
+    .header__acoes .botao { 
+        display: none;
+    }
+
+    .header {
+        background: transparent;
+        border: none;
+    }
+    
+    .header__login {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: #5A189A;
+        padding: 8px 18px;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+
+    .hero__container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero {
+        padding: 2rem 0;
+    }
+
+    .hero__texto h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero__texto p {
+        margin: 0 auto 2rem;
+    }
+
+    .planos__grade {
+        flex-direction: column; 
+        align-items: center;   
+    }
+
+    .plan-card {
+        width: 90%;
+    }
+}
