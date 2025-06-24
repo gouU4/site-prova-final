@@ -127,3 +127,56 @@ ul {
     max-width: 300px; 
     margin: 0 auto;
 }
+
+/* PLANOS */
+.planos {
+    padding-bottom: 50px;
+}
+.planos__grade {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.plan-card {
+    background-color: #240046;
+    padding: 2rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    min-width: 300px;
+}
+.plan-card__logo {
+    width: 100px;
+    margin-bottom: 1.5rem;
+}
+.plan-card__titulo {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.plan-card__caracteristicas {
+    text-align: left;
+    margin: 20px;
+    align-self: flex-start;
+    width: 100%;
+}
+.plan-card__caracteristicas li {
+    margin-bottom: 0.5rem;
+}
+.plan-card .botao {
+    width: 100%;
+    margin-top: auto;
+}
+.plan-card__preco {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+.plan-card__periodo {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #E0E0E0;
+}
