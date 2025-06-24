@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #10002B;
+    color: #FFFFFF;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.botao--primario {
+    background-color: #3C096C;
+    color: #FFFFFF;
+    border: 1px solid #5A189A;
+}
+
+.botao--secundario {
+    background-color: #5A189A;
+    color: #FFFFFF;
+}
+
+/* HEADER */
+.header {
+    background-color: #240046;
+    padding: 1rem 0;
+    border-bottom: 1px solid #3C096C;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo img {
+    height: 59px;
+}
+
+.header__nav {
+    display: block;
+}
+
+.header__nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.header__acoes {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+    
+.header__carrinho {
+    font-size: 1.5rem;
+}
+ /* main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+.meu-container {
+    background-color: #240046;
+    color: white;
+    width: 90%;
+    max-width: 950px; 
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.card-info {
+    width: 50%;
+}
+
+.assinar {
+    width: 50%;
+}
+
+.preco {
+    font-size: 2em;
+    margin-top: 25px;
+}
+
+.card-info h1 {
+    font-size: 2.5em;
+    margin: 0 0 30px 0;
+}
+
+.card-info ul {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+.card-info ul li {
+    margin-bottom: 15px;
+}
+
+.assinar {
+    text-align: center;
+}
+
+.assinar img {
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: auto;   
+    margin-right: auto;  
+}
+
+@media (max-width: 1023px) {
+    .header {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .meu-container {
+        flex-direction: column; 
+        height: auto;
+        text-align: center;
+    }
+}
