@@ -31,6 +31,27 @@ ul {
     list-style: none;
 }
 
+/* BTN */
+.botao {
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.botao--primario {
+    background-color: #3C096C;
+    color: #FFFFFF;
+    border: 1px solid #5A189A;
+}
+
+.botao--secundario {
+    background-color: #5A189A;
+    color: #FFFFFF;
+}
+
+/* HEADER */
 .header {
     background-color: #240046;
     padding: 1rem 0;
@@ -64,4 +85,45 @@ ul {
     
 .header__carrinho {
     font-size: 1.5rem;
+}
+
+/* HERO */
+.hero {
+    padding: 4rem 0;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero__texto {
+    flex: 1; 
+    text-align: left;
+}
+
+.hero__imagem {
+    flex: 1;
+}
+
+.hero__texto span {
+    font-weight: 600;
+    color: #E0E0E0;
+    font-size: 0.9rem;
+}
+
+.hero__texto h1 {
+    font-size: 3rem; 
+}
+
+.hero__texto p {
+    padding-top: 10px;
+    margin: 0 0 2rem 0;
+    color: #E0E0E0;
+}
+
+.hero__imagem img {
+    max-width: 300px; 
+    margin: 0 auto;
 }
