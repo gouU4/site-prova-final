@@ -10,3 +10,58 @@ body {
     color: #FFFFFF;
     line-height: 1.6;
 }
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    background-color: #240046;
+    padding: 1rem 0;
+    border-bottom: 1px solid #3C096C;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo img {
+    height: 59px;
+}
+
+.header__nav {
+    display: block;
+}
+
+.header__nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.header__acoes {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+    
+.header__carrinho {
+    font-size: 1.5rem;
+}
