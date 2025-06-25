@@ -108,7 +108,7 @@ ul {
 }
 
 .hero__texto span {
-    font-weight: 600;
+    font-weight: bold;
     color: #E0E0E0;
     font-size: 0.9rem;
 }
@@ -172,12 +172,12 @@ ul {
 }
 .plan-card__preco {
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: bold;
     margin-top: 1.5rem;
 }
 .plan-card__periodo {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: bold;
     color: #E0E0E0;
 }
 
