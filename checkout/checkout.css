@@ -79,9 +79,7 @@ ul {
 .header__carrinho {
      font-size: 1.5rem; 
     }
-
-    /* Adicione todo este bloco ao seu CSS */
-
+    /*MAIN*/
 main {
     display: flex;
     justify-content: center;
@@ -138,6 +136,17 @@ main {
     gap: 1rem;
 }
 
+.form-group input {
+    width: 100%;
+    background-color: #10002B;
+    border: 1px solid #3C096C;
+    border-radius: 8px;
+    padding: 12px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
 .botao-pagamento {
     width: 100%;
     background-color: #5A189A;
@@ -154,4 +163,30 @@ main {
 
 .logo-section img {
     max-width: 250px;
+}
+
+@media (max-width: 1023px) {
+    .header__nav, .header__acoes {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 4rem 1rem;
+    }
+    .checkout-card {
+        flex-direction: column-reverse; 
+        padding-top: 50px;
+    }
+    
+    .form-title {
+        left: 40%;
+        width: 80%;
+        text-align: center;
+    }
+
+    .form-section, .logo-section {
+        width: 100%;
+    }
 }
