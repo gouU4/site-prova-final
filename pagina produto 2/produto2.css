@@ -35,6 +35,12 @@ ul {
     border-radius: 8px;
     font-weight: bold;
     text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.botao:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
 }
 
 .botao--primario {
