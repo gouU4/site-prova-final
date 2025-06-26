@@ -33,7 +33,6 @@ ul {
 
 /* BTN */
 .botao {
-    display: inline-block;
     padding: 10px 24px;
     border-radius: 8px;
     font-weight: 600;
@@ -73,13 +72,9 @@ ul {
     height: 59px;
 }
 
-.header__nav {
-    display: block;
-}
-
 .header__nav ul {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .header__acoes {
@@ -94,7 +89,7 @@ ul {
 
 /* HERO */
 .hero {
-    padding: 4rem 0;
+    padding: 4rem;
 }
 
 .hero__container {
@@ -104,12 +99,12 @@ ul {
 }
 
 .hero__texto {
-    flex: 1; 
+    width: 50%; 
     text-align: left;
 }
 
 .hero__imagem {
-    flex: 1;
+    width: 50%; 
 }
 
 .hero__texto span {
@@ -140,7 +135,6 @@ ul {
 .planos__grade {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 2rem;
 }
 .plan-card {
@@ -173,7 +167,6 @@ ul {
 }
 .plan-card .botao {
     width: 100%;
-    margin-top: auto;
 }
 .plan-card__preco {
     font-size: 2rem;

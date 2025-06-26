@@ -30,7 +30,6 @@ ul {
 }
 
 .botao {
-    display: inline-block;
     padding: 10px 24px;
     border-radius: 8px;
     font-weight: bold;
@@ -46,7 +45,6 @@ ul {
 .botao--primario {
     background-color: #3C096C;
     color: #FFFFFF;
-    border: 1px solid #5A189A;
 }
 
 .botao--secundario {

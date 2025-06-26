@@ -32,7 +32,6 @@ ul {
 }
 
 .botao { 
-     display: inline-block;
      padding: 10px 24px; 
      border-radius: 8px; 
      font-weight: bold; 
@@ -41,7 +40,6 @@ ul {
 
 .botao--primario { 
      background-color: #3C096C;
-     border: 1px solid #5A189A;
      }
 
 .botao--secundario { 
@@ -96,7 +94,6 @@ main {
     padding: 60px 40px 40px 40px;
     display: flex;
     align-items: center;
-    gap: 40px;
 }
 
 .form-title {
@@ -110,9 +107,6 @@ main {
     font-size: 1.1rem;
 }
 
-.form-section {
-    width: 50%;
-}
 .logo-section {
     width: 50%;
     display: flex;
@@ -166,6 +160,11 @@ main {
 }
 
 @media (max-width: 1023px) {
+    .header {
+        background: transparent;
+        border: none;
+    }
+
     .header__nav, .header__acoes {
         display: none;
     }
